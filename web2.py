@@ -25,3 +25,5 @@ for post in posts:
     #f-string 방식
     print(f'{title}, {price},{addr}')
     f.write(f'{title}, {price},{addr}\n')
+
+f.close()
